@@ -1,0 +1,41 @@
+.photo-gallery{
+    width: 400px;
+}
+.product{
+    width: 400px;
+    border-radius: 20px;
+}
+.products-images{
+    display: flex;
+    margin-top: 40PX;
+    justify-content: space-between;
+}
+.products-images > img {
+    width: 20%;
+    border-radius: 10px;
+}
+.products-images> img:hover {
+    cursor: pointer;
+    filter: opacity(50%);
+}
+
+
+.active-image{
+    cursor: pointer;
+    filter: opacity(50%);
+    border: 3px hsl(26, 100%, 55%) solid;
+}
+
+@media screen and (max-width: 800px) {
+    .photo-gallery{
+        width: 100%;
+    }
+    .product{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .products-images{
+        display: none;
+    }
+    
+}

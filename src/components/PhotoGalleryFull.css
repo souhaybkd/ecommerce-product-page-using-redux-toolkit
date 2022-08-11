@@ -1,0 +1,78 @@
+.photo-gallery-fullscreen{
+    width: 100%;
+    padding: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.538);
+    top: 0;
+    z-index: 15;
+    height: 100vh;
+}
+.close-button{
+    all: unset;
+    position: absolute;
+    right: 0;
+    top: -30px;
+    transform: scale(180%);
+    color: orange;
+    cursor: pointer;
+
+}
+.close-button path {
+    fill: hsl(220, 13%, 13%);
+}
+.close-button:hover path {
+    fill: hsl(26, 100%, 55%);
+}
+.main-product-image{
+    position: relative;
+    width: 500px;
+}
+.icons-button{
+    all: unset;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.icon{
+   transform: scale(100%);
+
+}
+.previous-icon{
+    left: -23px;
+}
+.next-icon{
+    right:  -23px;
+}
+.product-image{
+    width: 100%;
+    border-radius: 20px;
+}
+.products-images-fullscreen{
+    display: flex;
+    margin-top: 40PX;
+    padding: 0 20px;
+    width: 40%;
+    justify-content: space-around;
+}
+.products-images-fullscreen > img {
+    
+    width: 15%;
+    border-radius: 10px;
+}
+.products-images-fullscreen > img:hover {
+    
+    cursor: pointer;
+    filter: opacity(50%);
+}

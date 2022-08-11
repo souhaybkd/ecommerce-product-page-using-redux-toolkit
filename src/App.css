@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+html{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    /* Primary */
+    --Orange: hsl(26, 100%, 55%) ;
+    --Pale-orange: hsl(25, 100%, 94%) ;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    /* Neutral */
+    --very-vark-blue : hsl(220, 13%, 13%) ;
+    --Dark-grayish-blue: hsl(219, 9%, 45%) ;
+    --Grayish-blue: hsl(220, 14%, 75%) ;
+    --Light-grayish-blue: hsl(223, 64%, 98%) ;
+    --White: hsl(0, 0%, 100%);
 }
