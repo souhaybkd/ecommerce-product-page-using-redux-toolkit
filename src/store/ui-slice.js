@@ -5,7 +5,7 @@ const uiSlice = createSlice({
     initialState:{
         cartIsVisible: false , 
         fullPhotoGalleryIsVisible : false ,
-        navigOnMobileIsVisible : false
+        navigOnMobileIsVisible : window.innerWidth <= 800 ? false : true
     },
     reducers:{
         toggle(state){
