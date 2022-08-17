@@ -12,10 +12,12 @@ const uiSlice = createSlice({
             state.cartIsVisible = !state.cartIsVisible
         },
         fullPhotoGalleryToggle(state){
-            state.fullPhotoGalleryIsVisible = !state.fullPhotoGalleryIsVisible
+            if(window.innerWidth >= 800){
+                state.fullPhotoGalleryIsVisible = !state.fullPhotoGalleryIsVisible
+            }
         },
-        navigOnMobileToggle(state){
-            state.navigOnMobileIsVisible = !state.navigOnMobileIsVisible
+        navigOnMobileToggle(state){           
+            state.navigOnMobileIsVisible = !state.navigOnMobileIsVisible     
         }
     }
 })
