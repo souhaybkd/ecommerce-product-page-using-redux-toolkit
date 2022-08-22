@@ -99,6 +99,12 @@
 .cart-icon{
     margin-right: 5px;
 }
+.photoGallery-status{
+    display: flex;
+}
+.photoGallery-mobile-status{
+    display: none;
+}
 @media screen and (max-width: 800px) {
 
     .Product-section{
@@ -211,6 +217,13 @@
     .cart-icon{
         transform: scale(100%);
         margin-right: 10px;
+    }
+
+    .photoGallery-status{
+        display: none;
+    }
+    .photoGallery-mobile-status{
+        display: flex;
     }
 }
 

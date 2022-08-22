@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { useDispatch } from 'react-redux'
 import {cartActions} from '../store/cart-slice'
-import PhotoGallery from './PhotoGallery'
+import {productImages1} from '../images'
+import PhotoGallery from './photoGallery'
 import './Product.css'
+import PhotoGalleryMobile from './PhotoGalleryMobile'
 
-    const DUMMY_PRODUCT = 
+    export const DUMMY_PRODUCT = 
         {id:'p1', 
         name:'Fall limited Edition Sneakers' , 
         description:`These low-profile sneakers are you perfect casual wear companion . Featuringa durablerubber outer sole, they'll withstand everyting the weather can offer.`,
         price: 125,
         discount: 50 ,
         oldPrice: 250 ,
-        quantity : 0
+        quantity : 0 ,
+        photos:productImages1 
         }
     
 
@@ -41,9 +44,15 @@ function Product(prop) {
     }
 
   return (
+    <Fragment>
     <section className='Product-section'>
         <div className='product-photos'>
-            <PhotoGallery/>
+            <div className ='photoGallery-status'>
+                <PhotoGallery  />
+            </div>
+            <div className='photoGallery-mobile-status'>
+                <PhotoGalleryMobile />
+            </div>
         </div>
         <div className='product-details'>
             <p className='company-name'>SNEAKER COMPANY</p>
@@ -69,7 +78,10 @@ function Product(prop) {
                 </button>
             </div>
         </div>
+        
     </section>
+    {/* <PhotoGallery1/> */}
+    </Fragment>
   )
 }
 

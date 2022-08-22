@@ -1,0 +1,46 @@
+.photo-gallery-mobile{
+    position: relative;
+}
+.product-image-mobile{
+    width: 100%;
+}
+.close-button{
+    all: unset;
+    position: absolute;
+    right: 0;
+    top: -30px;
+    transform: scale(180%);
+    color: orange;
+    cursor: pointer;
+
+}
+.close-button path {
+    fill: hsl(220, 13%, 13%);
+}
+.close-button:hover path {
+    fill: hsl(26, 100%, 55%);
+}
+
+.icons-button-mobile{
+    all: unset;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+.icon{
+   transform: scale(100%);
+}
+.previous-icon-mobile{
+    left: 15px;
+}
+.next-icon-moblie{
+    right:  15px;
+}

@@ -16,39 +16,37 @@ oldPrice: 250 ,
 }
 
 
-
 function App() {
 
   const showCart = useSelector(state => state.ui.cartIsVisible)
 
-  const [cartProduct,setCartProduct] = React.useState([])
+  const [cartProduct, setCartProduct] = React.useState([])
 
   const [productQuantity, setProductQuantity] = React.useState(0)
 
   const removeItem = () => {
-    if(productQuantity > 0 ){
+    if (productQuantity > 0) {
       setProductQuantity(productQuantity - 1)
     }
     return
   }
- 
+
 
   const hidePhotoGalleryFull = useSelector(state => state.ui.fullPhotoGalleryIsVisible)
- 
+
   return (
     <div>
       <MainHeader />
-      <Product 
-        product ={DUMMY_PRODUCT} 
-        productQuantity={productQuantity} 
-/>
-
+      <Product
+        product={DUMMY_PRODUCT}
+        productQuantity={productQuantity}
+      />
       {showCart &&
-      <Cart 
-        product ={DUMMY_PRODUCT} 
-        productQuantity={productQuantity}/>}
-
-      { hidePhotoGalleryFull && <PhotoGalleryFull/> }
+        <Cart
+          product={DUMMY_PRODUCT}
+          productQuantity={productQuantity} />}
+    {hidePhotoGalleryFull && <PhotoGalleryFull/>}
+        
     </div>
   )
 }
