@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { useDispatch } from 'react-redux'
 import {cartActions} from '../store/cart-slice'
 import {productImages1} from '../images'
-import PhotoGallery from './photoGallery'
+import PhotoGallery from './PhotoGallery'
 import './Product.css'
 import PhotoGalleryMobile from './PhotoGalleryMobile'
 
