@@ -17,8 +17,6 @@ const PhotoGallery = () => {
     )
 })
 
-
-
 const dispatch = useDispatch()
 function showFullGallery(){
   dispatch(uiActions.fullPhotoGalleryToggle())

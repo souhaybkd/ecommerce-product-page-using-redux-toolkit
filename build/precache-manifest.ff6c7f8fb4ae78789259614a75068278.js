@@ -1,19 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "19b63ad065e8304dcc44",
-    "url": "/static/css/main.fabc8fe0.chunk.css"
+    "revision": "f9488f9f981e6e3e63d1",
+    "url": "/static/css/main.59f6ba86.chunk.css"
   },
   {
-    "revision": "19b63ad065e8304dcc44",
-    "url": "/static/js/main.19b63ad0.chunk.js"
+    "revision": "f9488f9f981e6e3e63d1",
+    "url": "/static/js/main.f9488f9f.chunk.js"
   },
   {
-    "revision": "90af895e1b3da04d1e79",
-    "url": "/static/js/1.90af895e.chunk.js"
+    "revision": "dedf9024c09eef097fac",
+    "url": "/static/js/1.dedf9024.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "11c68ec66c6da9819bfefe602bbb9e3b",
+    "url": "/static/media/icon-previous.11c68ec6.svg"
+  },
+  {
+    "revision": "b02d406c9da0e59c42120e997154fbbb",
+    "url": "/static/media/icon-next.b02d406c.svg"
+  },
+  {
+    "revision": "383d1284c6fd2728846d4d5033882509",
+    "url": "/static/media/icon-close.383d1284.svg"
   },
   {
     "revision": "0ac65e8df3cdb3240e82aac50d5b84c5",
@@ -32,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/image-product-4.5e95fcb4.jpg"
   },
   {
-    "revision": "2fff91da1d14257def961611b3d930e4",
+    "revision": "3a443affc47c82b83c8cd82bcd8b05e9",
     "url": "/index.html"
   }
 ];

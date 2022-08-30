@@ -19,11 +19,13 @@
 }
 
 .product-title{
+    display: block;
     font-size: 40px;
     margin: 20px 0;
     max-width:400px;
 }
 .product-description {
+    display: flex;
     max-width: 44ch;
     margin: 10px 0;
     opacity: 50%;

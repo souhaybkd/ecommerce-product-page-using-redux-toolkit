@@ -48,14 +48,14 @@ function Product(prop) {
     <section className='Product-section'>
         <div className='product-photos'>
             <div className ='photoGallery-status'>
-                <PhotoGallery  />
+                <PhotoGallery />
             </div>
             <div className='photoGallery-mobile-status'>
                 <PhotoGalleryMobile />
             </div>
         </div>
         <div className='product-details'>
-            <p className='company-name'>SNEAKER COMPANY</p>
+            <span className='company-name'>SNEAKER COMPANY</span>
             <h2 className='product-title'>{prop.product.name}</h2>
             <p className='product-description'>
                 {prop.product.description}
